@@ -17,6 +17,8 @@ app.use(morgan("dev"));
 
 
 // Routes
+app.use('/api/v1/student', require('./routes/studentRouter'))
+
 app.get("/test", (req, res) => {
     res.status(200).send('<h1> NodeJs MYSQL Application </h1>')
 });
