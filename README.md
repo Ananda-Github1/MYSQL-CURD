@@ -3,14 +3,14 @@ A simple Node.js backend API for managing student records. This project provides
 
 
 // Features
-Create a new student record
-Retrieve student details
-Update existing student records
+Create a new student record,
+Retrieve student details,
+Update existing student records,
 Delete a student record
 
 // Technologies Used
-Node.js
-Express
-MySQL
-Body-parser
+Node.js,
+Express,
+MySQL,
+Body-parser,
 dotenv
