@@ -38,7 +38,7 @@ const getStudentByID = async (req, res) => {
             })
         }
         const data = await db.query('SELECT * FROM students WHERE id=?',[studentId]);
-        if(!data){
+        if(data.length === 0){
             res.status(404).send({
                 success: false,
                 message: "No Student Found",
